@@ -1,8 +1,8 @@
 function myfunction(a) {
-        var list = [];
-        for (var i = 1; i <= a; i++) {
-        list.push(i);
-        }
-        return list;
+    var list = [];
+    for (var i = 1; i <= a; i++) {
+    list.push(i);
     }
-    module.exports = myfunction;
+    return list;
+}
+module.exports = myfunction;
